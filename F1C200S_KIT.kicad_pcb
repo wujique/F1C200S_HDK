@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 23)
+    (drawings 22)
     (tracks 2230)
     (zones 0)
     (modules 89)
@@ -4357,7 +4357,6 @@
   (gr_text TTL (at 190.7286 123.444 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)))
   )
-  (target plus (at 140.0048 132.4864) (size 5) (width 0.0508) (layer Edge.Cuts))
   (gr_text I2C (at 151.892 126.3142) (layer F.SilkS) (tstamp 5E43E43A)
     (effects (font (size 1 1) (thickness 0.1778)))
   )
@@ -6622,7 +6621,7 @@
   (segment (start 184.849 122.5242) (end 185.6222 123.2974) (width 0.127) (layer F.Cu) (net 91))
   (segment (start 184.4365 122.5242) (end 184.849 122.5242) (width 0.127) (layer F.Cu) (net 91))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E43EFFA) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5E42AC61) (hatch edge 0.508)
     (connect_pads (clearance 0.381))
     (min_thickness 0.2032)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -7271,7 +7270,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E43EFF7) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5E42AC5E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

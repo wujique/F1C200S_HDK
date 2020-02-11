@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
-Title ""
+Title "F1C200S KIT"
 Date ""
-Rev ""
-Comp ""
+Rev "V1.0"
+Comp "WUJIQUE"
 Comment1 ""
 Comment2 ""
 Comment3 ""
