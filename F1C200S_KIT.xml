@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>I:\F1C200S\SchPcb\F1C200S_KIT\F1C200S_KIT.sch</source>
+    <date>2020/2/6 10:41:28</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>F1C200S_KIT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CPU/" tstamps="/5E3A4A8E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CPU.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/5E3A4AC6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Misc/" tstamps="/5E3A651C/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Misc.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C4">
+      <value>C0402_10pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">10pF</field>
+        <field name="编码">71.10.0003</field>
+        <field name="规格">10PF,50V,J,0402,NPO(C0G)</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0003_C0402_10pF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4B0892</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C0402_10pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">10pF</field>
+        <field name="编码">71.10.0003</field>
+        <field name="规格">10PF,50V,J,0402,NPO(C0G)</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0003_C0402_10pF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4AFFB9</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C0402_18pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">18pF</field>
+        <field name="编码">71.10.0003</field>
+        <field name="规格">18PF,50V,J,0402,NPO</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0005_C0402_18pF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4ABCF9</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C0402_18pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">18pF</field>
+        <field name="编码">71.10.0003</field>
+        <field name="规格">18PF,50V,J,0402,NPO</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0005_C0402_18pF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4AB342</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal_FC_135_32.768k</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="参数">FC_135_32.768k</field>
+        <field name="规格">FC-135 32.768KHZ 6PF 20PPM 编带SMD-3215_2P，EPSON</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0401_Crystal_FC_135_32.768k" description="Two pin crystal, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4AA598</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_GND24_8M_50321</value>
+      <footprint>Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">晶振</field>
+        <field name="参数">8M</field>
+        <field name="规格">YXC 8MHz±20ppm,20PF＋JF8.000000-50321</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0402_Crystal_8M_50321" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <sheetpath names="/CPU/" tstamps="/5E3A4A8E/"/>
+      <tstamp>5E4A9DC3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>04.0002_CP1210_47uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片钽电容</field>
+        <field name="参数">47uF</field>
+        <field name="编码">04.0002</field>
+        <field name="规格">钽47uF,10V,K,B型,1210(公制3528-21)</field>
+      </fields>
+      <libsource lib="0WJQ" part="04.0002_CP1210_47uF" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3E2EF3</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>03.0009_C0402_100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">100nF</field>
+        <field name="编码">03.0009</field>
+        <field name="规格">100nF,16V,K,0402,X7R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0009_C0402_100nF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3E3851</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>09.0101_AIC1733-33PVT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <fields>
+        <field name="分类">LDO</field>
+        <field name="参数">AIC1733-33PVT</field>
+        <field name="编码">09.0101</field>
+        <field name="规格">LDO稳压器+输出电压3.3V,额定电流500mA,高电平有效,输入电压范围3.6V~7V</field>
+      </fields>
+      <libsource lib="0WJQ" part="09.0101_AIC1733-33PVT" description=""/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3E2713</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>03.0009_C0402_100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">100nF</field>
+        <field name="编码">03.0009</field>
+        <field name="规格">100nF,16V,K,0402,X7R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0009_C0402_100nF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3E65C5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>03.0014_C0805_10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">10uF</field>
+        <field name="编码">03.0014</field>
+        <field name="规格">10uF,16V,K,0805,X5R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0014_C0805_10uF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3E70CB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>07.0201_LED_Red_0603</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">二极管</field>
+        <field name="参数">R_LED</field>
+        <field name="编码">07.0201</field>
+        <field name="规格">红色LED,1.6*0.8*0.4mm,2.7-3.0V,5V,25mA,90mW,SMT</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0201_LED_Red_0603" description="Light emitting diode"/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3F1840</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>02.0003_R0402_1K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">1K_1%</field>
+        <field name="编码">02.0003</field>
+        <field name="规格">贴片电阻, 1K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0003_R0402_1K_1%" description=""/>
+      <sheetpath names="/Power/" tstamps="/5E3A4AC6/"/>
+      <tstamp>5E3F44C5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>10.0002_USB_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="分类">连接器</field>
+        <field name="参数">USB_Micro</field>
+        <field name="编码">10.0002</field>
+        <field name="规格">micro usb母座， 精拓金，四脚全插牛角型短针</field>
+      </fields>
+      <libsource lib="0WJQ" part="10.0002_USB_Micro" description="USB mini/micro connector"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3A67D4</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>09.0001_CP2104</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</datasheet>
+      <fields>
+        <field name="分类">IC</field>
+        <field name="参数">CP2104</field>
+        <field name="编码">09.0001</field>
+        <field name="规格">CP2014 USB转串口芯片</field>
+      </fields>
+      <libsource lib="0WJQ" part="09.0001_CP2104" description="Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3B59DA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>03.0011_C0603_1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">1uF</field>
+        <field name="编码">03.0011</field>
+        <field name="规格">1uF,16V,K,0603,,X7R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0011_C0603_1uF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3BC13F</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>03.0009_C0402_100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">100nF</field>
+        <field name="编码">03.0009</field>
+        <field name="规格">100nF,16V,K,0402,X7R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0009_C0402_100nF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3BEB1F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>03.0012_C0603_2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">2.2uF</field>
+        <field name="编码">03.0012</field>
+        <field name="规格">2.2uF,16V,K,X5R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0012_C0603_2.2uF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3BF31F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>02.0005_R0402_4K7_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">4K7_1%</field>
+        <field name="编码">02.0005</field>
+        <field name="规格">贴片电阻, 4K7±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0005_R0402_4K7_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3C17D7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>03.0013_C0805_4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">4.7uF</field>
+        <field name="编码">03.0013</field>
+        <field name="规格">4.7uF,16V,K,0805,X5R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0013_C0805_4.7uF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3C3898</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>10.0002_USB_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="分类">连接器</field>
+        <field name="参数">USB_Micro</field>
+        <field name="编码">10.0002</field>
+        <field name="规格">micro usb母座， 精拓金，四脚全插牛角型短针</field>
+      </fields>
+      <libsource lib="0WJQ" part="10.0002_USB_Micro" description="USB mini/micro connector"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3D7632</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>10.0001_Micro_SD_Card</value>
+      <fields>
+        <field name="分类">接插件</field>
+        <field name="参数">Micro_SD_Card</field>
+        <field name="编码">10.0001</field>
+        <field name="规格">TF卡座，9PIN, 自弹TF卡，带定位脚，韩荣</field>
+      </fields>
+      <libsource lib="0WJQ" part="10.0001_Micro_SD_Card" description="Micro SD Card Socket"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3FE5D8</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>02.0014_R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0014_R0402_47K_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E3FFF92</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">71.02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="F1C200S_KIT-rescue" part="R0402_47K_1%-RES" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E401712</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>02.0014_R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0014_R0402_47K_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E401E01</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>02.0014_R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0014_R0402_47K_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E402353</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>02.0014_R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0014_R0402_47K_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E40281D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>02.0014_R0402_47K_1%</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="分类">贴片电阻</field>
+        <field name="参数">47K_1%</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+      </fields>
+      <libsource lib="0WJQ" part="02.0014_R0402_47K_1%" description=""/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E4141FD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>03.0009_C0402_100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">100nF</field>
+        <field name="编码">03.0009</field>
+        <field name="规格">100nF,16V,K,0402,X7R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0009_C0402_100nF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E416F7D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>03.0013_C0805_4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="参数">4.7uF</field>
+        <field name="编码">03.0013</field>
+        <field name="规格">4.7uF,16V,K,0805,X5R</field>
+      </fields>
+      <libsource lib="0WJQ" part="03.0013_C0805_4.7uF" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E4178D5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>07.0002_D_TVS_PESDNC2FD5VB</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">二极管</field>
+        <field name="参数">PESDNC2FD5VB</field>
+        <field name="编码">07.0002</field>
+        <field name="规格">ESD防护芯片, PESDNC2FD5VB，2P</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0002_D_TVS_PESDNC2FD5VB" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E481259</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>07.0002_D_TVS_PESDNC2FD5VB</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">二极管</field>
+        <field name="参数">PESDNC2FD5VB</field>
+        <field name="编码">07.0002</field>
+        <field name="规格">ESD防护芯片, PESDNC2FD5VB，2P</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0002_D_TVS_PESDNC2FD5VB" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E48262F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>07.0003_PTVSHC3N7VU</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="分类">二极管</field>
+        <field name="参数">PTVSHC3N7VU</field>
+        <field name="编码">07.0003</field>
+        <field name="规格">PTVSHC3N7VU</field>
+      </fields>
+      <libsource lib="0WJQ" part="07.0003_PTVSHC3N7VU" description="Dual Zener diode, common cathode on pin 3"/>
+      <sheetpath names="/Misc/" tstamps="/5E3A651C/"/>
+      <tstamp>5E492B5D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0WJQ" part="02.0003_R0402_1K_1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">02.0003_R0402_1K_1%</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="分类">贴片电阻</field>
+        <field name="编码">02.0003</field>
+        <field name="规格">贴片电阻, 1K±1%, 0402</field>
+        <field name="参数">1K_1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="02.0005_R0402_4K7_1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">02.0005_R0402_4K7_1%</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="分类">贴片电阻</field>
+        <field name="编码">02.0005</field>
+        <field name="规格">贴片电阻, 4K7±1%, 0402</field>
+        <field name="参数">4K7_1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="02.0014_R0402_47K_1%">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">02.0014_R0402_47K_1%</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="分类">贴片电阻</field>
+        <field name="编码">02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+        <field name="参数">47K_1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0003_C0402_10pF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0003_C0402_10pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0003</field>
+        <field name="规格">10PF,50V,J,0402,NPO(C0G)</field>
+        <field name="参数">10pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0005_C0402_18pF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0005_C0402_18pF</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0005</field>
+        <field name="规格">18PF,50V,J,0402,NPO</field>
+        <field name="参数">18pF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0009_C0402_100nF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0009_C0402_100nF</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0009</field>
+        <field name="规格">100nF,16V,K,0402,X7R</field>
+        <field name="参数">100nF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0011_C0603_1uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0011_C0603_1uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0011</field>
+        <field name="规格">1uF,16V,K,0603,,X7R</field>
+        <field name="参数">1uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0012_C0603_2.2uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0012_C0603_2.2uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0012</field>
+        <field name="规格">2.2uF,16V,K,X5R</field>
+        <field name="参数">2.2uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0013_C0805_4.7uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0013_C0805_4.7uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0013</field>
+        <field name="规格">4.7uF,16V,K,0805,X5R</field>
+        <field name="参数">4.7uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="03.0014_C0805_10uF">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">03.0014_C0805_10uF</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="分类">贴片瓷片电容</field>
+        <field name="编码">03.0014</field>
+        <field name="规格">10uF,16V,K,0805,X5R</field>
+        <field name="参数">10uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="04.0002_CP1210_47uF">
+      <description>Polarized capacitor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">04.0002_CP1210_47uF</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B</field>
+        <field name="分类">贴片钽电容</field>
+        <field name="编码">04.0002</field>
+        <field name="规格">钽47uF,10V,K,B型,1210(公制3528-21)</field>
+        <field name="参数">47uF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="07.0002_D_TVS_PESDNC2FD5VB">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">07.0002_D_TVS_PESDNC2FD5VB</field>
+        <field name="分类">二极管</field>
+        <field name="编码">07.0002</field>
+        <field name="规格">ESD防护芯片, PESDNC2FD5VB，2P</field>
+        <field name="参数">PESDNC2FD5VB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="07.0003_PTVSHC3N7VU">
+      <description>Dual Zener diode, common cathode on pin 3</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">07.0003_PTVSHC3N7VU</field>
+        <field name="分类">二极管</field>
+        <field name="编码">07.0003</field>
+        <field name="规格">PTVSHC3N7VU</field>
+        <field name="参数">PTVSHC3N7VU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="07.0201_LED_Red_0603">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">07.0201_LED_Red_0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="分类">二极管</field>
+        <field name="编码">07.0201</field>
+        <field name="规格">红色LED,1.6*0.8*0.4mm,2.7-3.0V,5V,25mA,90mW,SMT</field>
+        <field name="参数">R_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="07.0401_Crystal_FC_135_32.768k">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">07.0401_Crystal_FC_135_32.768k</field>
+        <field name="Footprint">Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</field>
+        <field name="分裂">晶振</field>
+        <field name="编码">07.0401</field>
+        <field name="规格">FC-135 32.768KHZ 6PF 20PPM 编带SMD-3215_2P，EPSON</field>
+        <field name="参数">FC_135_32.768k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="07.0402_Crystal_8M_50321">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">07.0402_Crystal_8M_50321</field>
+        <field name="Footprint">Crystal:Crystal_SMD_5032-4Pin_5.0x3.2mm</field>
+        <field name="分类">晶振</field>
+        <field name="编码">07.0402</field>
+        <field name="规格">YXC 8MHz±20ppm,20PF＋JF8.000000-50321</field>
+        <field name="参数">8M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="09.0001_CP2104">
+      <description>Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package</description>
+      <docs>https://www.silabs.com/documents/public/data-sheets/cp2104.pdf</docs>
+      <footprints>
+        <fp>QFN*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">09.0001_CP2104</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="分类">IC</field>
+        <field name="编码">09.0001</field>
+        <field name="规格">CP2014 USB转串口芯片</field>
+        <field name="参数">CP2104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RI" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="D-" type="BiDi"/>
+        <pin num="5" name="VIO" type="power_in"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="input"/>
+        <pin num="9" name="~RST" type="BiDi"/>
+        <pin num="10" name="VIO/NC" type="power_out"/>
+        <pin num="11" name="GPIO.3" type="BiDi"/>
+        <pin num="12" name="GPIO.2" type="BiDi"/>
+        <pin num="13" name="GPIO.1" type="BiDi"/>
+        <pin num="14" name="GPIO.0" type="BiDi"/>
+        <pin num="15" name="~SUSPEND" type="output"/>
+        <pin num="16" name="VPP" type="passive"/>
+        <pin num="17" name="SUSPEND" type="output"/>
+        <pin num="18" name="CTS" type="input"/>
+        <pin num="19" name="RTS" type="output"/>
+        <pin num="20" name="RXD" type="input"/>
+        <pin num="21" name="TXD" type="output"/>
+        <pin num="22" name="DSR" type="input"/>
+        <pin num="23" name="DTR" type="output"/>
+        <pin num="24" name="DCD" type="input"/>
+        <pin num="25" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="09.0101_AIC1733-33PVT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">09.0101_AIC1733-33PVT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="分类">LDO</field>
+        <field name="编码">09.0101</field>
+        <field name="规格">LDO稳压器+输出电压3.3V,额定电流500mA,高电平有效,输入电压范围3.6V~7V</field>
+        <field name="参数">AIC1733-33PVT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SHDN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="10.0001_Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10.0001_Micro_SD_Card</field>
+        <field name="分类">接插件</field>
+        <field name="编码">10.0001</field>
+        <field name="规格">TF卡座，9PIN, 自弹TF卡，带定位脚，韩荣</field>
+        <field name="参数">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="DAT3/CD" type="BiDi"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="9" name="DET" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0WJQ" part="10.0002_USB_Micro">
+      <description>USB mini/micro connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10.0002_USB_Micro</field>
+        <field name="Footprint">Connector_USB:USB_Micro-B_Molex-105017-0001</field>
+        <field name="分类">连接器</field>
+        <field name="编码">10.0002</field>
+        <field name="规格">micro usb母座， 精拓金，四脚全插牛角型短针</field>
+        <field name="参数">USB_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="F1C200S_KIT-rescue" part="R0402_47K_1%-RES">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R0402_47K_1%-RES</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="分类">贴片电阻</field>
+        <field name="编码">71.02.0014</field>
+        <field name="规格">贴片电阻, 47K±1%, 0402</field>
+        <field name="参数">47K_1%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0WJQ">
+      <uri>D:/kicadlib/sch/0WJQ.lib</uri>
+    </library>
+    <library logical="F1C200S_KIT-rescue">
+      <uri>I:\F1C200S\SchPcb\F1C200S_KIT/F1C200S_KIT-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Misc/vbus">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D3" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="2" name="/Misc/CPU_RXD">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="3" name="/Misc/CPU_TXD">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="Y2" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="11" name="/Misc/SDIO_DET">
+      <node ref="R3" pin="2"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="12" name="/Misc/SDIO_D1">
+      <node ref="J3" pin="8"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="13" name="/Misc/SDIO_D0">
+      <node ref="J3" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="14" name="/Misc/SDIO_CMD">
+      <node ref="R6" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="15" name="/Misc/SDIO_CLK">
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="16" name="/Misc/SDIO_D0">
+      <node ref="R5" pin="2"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="17" name="/Misc/SDIO_D3">
+      <node ref="J3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="18" name="/Misc/USB_D+">
+      <node ref="J2" pin="3"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="19" name="/Misc/USB_D-">
+      <node ref="J2" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(C11-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="23" name="Net-(C10-Pad1)">
+      <node ref="U2" pin="16"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="25" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="30" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="31" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad18)">
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad23)">
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="39" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="9"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U2" pin="25"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J3" pin="10"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="6"/>
+      <node ref="D4" pin="2"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="6"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+  </nets>
+</export>
