@@ -18,16 +18,16 @@ bom目录是器件丝印和资料，用InteractiveHtmlBom生成。
 
 
 
-**2020-02-25**
+**2020-02-29**
 
 已经验证：
 
-USB下载固件到SPI FLASH能启动，TTL能进控制台，RGB LCD能显示。
+USB下载固件到SPI FLASH能启动，TTL能进控制台，RGB LCD能显示、触摸屏。
 
 可以从TF卡启动。
 
 未验证：
 
-触摸屏、TV和音频输出、外扩接口。
+TV和音频输出、外扩接口。
 
 如有需要，请联系：www.wujique.com
