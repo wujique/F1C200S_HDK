@@ -2,6 +2,10 @@
 
 这是一个F1C200S小板的原理图和PCB。
 
+挖坑网：https://whycan.cn/t_3688.html
+
+
+
 用KiCAD 5.1.5绘制。
 
 
