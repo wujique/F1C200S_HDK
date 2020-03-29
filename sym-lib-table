@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 0WJQ)(type Legacy)(uri D:/kicadlib/sch/0WJQ.lib)(options "")(descr ""))
+  (lib (name F1C200S_KIT-rescue)(type Legacy)(uri ${KIPRJMOD}/F1C200S_KIT-rescue.lib)(options "")(descr ""))
 )
